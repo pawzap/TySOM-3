@@ -1,0 +1,243 @@
+Package: luci-app-adblock
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, adblock, luci-lib-jsonc
+Section: luci
+Architecture: all
+Installed-Size: 4873
+Filename: luci-app-adblock_git-17.290.79498-d3f0685-1_all.ipk
+Size: 5663
+SHA256sum: 56deb1a2c88e98f80cbfe9c9f15088d127a9feac1c1835c12562e6af7b76ec83
+Description:  LuCI support for Adblock
+
+Package: luci-app-commands
+Version: git-17.290.79498-d3f0685-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 4906
+Filename: luci-app-commands_git-17.290.79498-d3f0685-1_all.ipk
+Size: 5575
+SHA256sum: ec09ca4edae90ce02b20af3384460c4934cf1c3ce5eb5103c6a50c92d74bd73b
+Description:  LuCI Shell Command Module
+
+Package: luci-app-firewall
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, firewall
+Section: luci
+Architecture: all
+Installed-Size: 10774
+Filename: luci-app-firewall_git-17.290.79498-d3f0685-1_all.ipk
+Size: 11490
+SHA256sum: 725a70d0681f05189c4565fd0d57e12269663d1baedc996cbcad65abefcfc5c4
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-openvpn
+Version: git-17.290.79498-d3f0685-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 8864
+Filename: luci-app-openvpn_git-17.290.79498-d3f0685-1_all.ipk
+Size: 9580
+SHA256sum: a4dba5dfe32b2e4ba2a93a11dc9bf70171d2514593aee191ed14f3f3327da329
+Description:  LuCI Support for OpenVPN
+
+Package: luci-app-qos
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, qos-scripts
+Section: luci
+Architecture: all
+Installed-Size: 1367
+Filename: luci-app-qos_git-17.290.79498-d3f0685-1_all.ipk
+Size: 2104
+SHA256sum: ca6ec982cae7668629fb7a5b20dbe0eab01ed6c87524f5d74214554749bad600
+Description:  Quality of Service configuration module
+
+Package: luci-app-samba
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, samba36-server
+Section: luci
+Architecture: all
+Installed-Size: 1352
+Filename: luci-app-samba_git-17.290.79498-d3f0685-1_all.ipk
+Size: 2094
+SHA256sum: eae4e792e8e65a8a7bf1dae896e256300df1f70ae305f2363a33d5247c1d3ef4
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-statistics
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
+Section: luci
+Architecture: all
+Installed-Size: 28573
+Filename: luci-app-statistics_git-17.290.79498-d3f0685-1_all.ipk
+Size: 29424
+SHA256sum: 84cea83729c8161ed22e4e70b190c41b23460daf21a9091ca775c8e0660d05bc
+Description:  LuCI Statistics Application
+
+Package: luci-app-uhttpd
+Version: 1.0.0-1
+Depends: libc, uhttpd
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2865
+Filename: luci-app-uhttpd_1.0.0-1_all.ipk
+Size: 3623
+SHA256sum: 055273907afe9f80d3b965766e1a3b97cec9082f98350f9ce5f10174425a4950
+Description:  uHTTPd Webserver Configuration
+
+Package: luci-app-wifischedule
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 3114
+Filename: luci-app-wifischedule_git-17.290.79498-d3f0685-1_all.ipk
+Size: 3831
+SHA256sum: f82df0892cc3ed842de7a0d30a9e3e9de90e946e1a4c4651c16eba3f058f1d27
+Description:  Turns WiFi on and off according to a schedule
+
+Package: luci-app-wol
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, etherwake
+Section: luci
+Architecture: all
+Installed-Size: 1429
+Filename: luci-app-wol_git-17.290.79498-d3f0685-1_all.ipk
+Size: 2147
+SHA256sum: d66d688af9586a06b109e275e9af12f6ba9229bf6bb1602e1ceb645818790b2f
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-base
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 124489
+Filename: luci-base_git-17.290.79498-d3f0685-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 125370
+SHA256sum: fefb5d781a2025a92d1dc8d05d68353edd573a2ea91658d341e65ef959f1a159
+Description:  LuCI core libraries
+
+Package: luci-lib-ip
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, liblua, libnl-tiny
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9234
+Filename: luci-lib-ip_git-17.290.79498-d3f0685-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9952
+SHA256sum: 311132ec8bc037f462aa89c9d6ebe29ef8f1535412c0fbf2d65d81f90b8f1aa1
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, liblua, libjson-c
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3574
+Filename: luci-lib-jsonc_git-17.290.79498-d3f0685-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4269
+SHA256sum: 816e2ef19b430865eaa24f6cc86e50c50258065694785a40c13396bec0ffa687
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, liblua
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 29012
+Filename: luci-lib-nixio_git-17.290.79498-d3f0685-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 29569
+SHA256sum: 8e199976e9ea5699612f1058d10ab2836a0aaf0b0d5f696929bd4370f9c109b9
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, luci-base
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 77425
+Filename: luci-mod-admin-full_git-17.290.79498-d3f0685-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 78252
+SHA256sum: 347b6d0e7bef18491ba4a6797b2c06c217522ab37e0bba801561c5911ca4f4d0
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ipv6
+Version: git-17.290.79498-d3f0685-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 4785
+Filename: luci-proto-ipv6_git-17.290.79498-d3f0685-1_all.ipk
+Size: 5509
+SHA256sum: c3e0c529f25fe2fb253af6d06aadf3506c00759a9cc364cfa26793fc792e8753
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-proto-ppp
+Version: git-17.290.79498-d3f0685-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 3085
+Filename: luci-proto-ppp_git-17.290.79498-d3f0685-1_all.ipk
+Size: 3759
+SHA256sum: de7e2baa78beb63c47118411dd07b509d10ce683c5e28d90f166562731f35643
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-ssl-openssl
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, luci, libustream-openssl, openssl-util
+Section: luci
+Architecture: all
+Installed-Size: 104
+Filename: luci-ssl-openssl_git-17.290.79498-d3f0685-1_all.ipk
+Size: 897
+SHA256sum: ffbc9005da1ef63c462ee7f756cc7346823a149a34bad34c6f7c484a6d37fb48
+Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
+
+Package: luci-ssl
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, luci, libustream-mbedtls, px5g
+Section: luci
+Architecture: all
+Installed-Size: 104
+Filename: luci-ssl_git-17.290.79498-d3f0685-1_all.ipk
+Size: 813
+SHA256sum: c358e24c138ea1803dc3d2192d2a3309752f3dbc2d125854549d955e81c4dbef
+Description:  LuCI with HTTPS support (mbedTLS as SSL backend)
+
+Package: luci-theme-bootstrap
+Version: git-17.290.79498-d3f0685-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 13084
+Filename: luci-theme-bootstrap_git-17.290.79498-d3f0685-1_all.ipk
+Size: 13826
+SHA256sum: af4277981e39c1094eeb9ebb52223d96a92bb11fe27dbcec83522f4b0c4805b4
+Description:  Bootstrap Theme (default)
+
+Package: luci-theme-openwrt
+Version: git-17.290.79498-d3f0685-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 6945
+Filename: luci-theme-openwrt_git-17.290.79498-d3f0685-1_all.ipk
+Size: 7757
+SHA256sum: d0bf33eedf4e625ddf28b93dfb5560b7cca20808d0a55968e169f06c8110275b
+Description:  LuCI OpenWrt.org theme
+
+Package: luci
+Version: git-17.290.79498-d3f0685-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Section: luci
+Architecture: all
+Installed-Size: 104
+Filename: luci_git-17.290.79498-d3f0685-1_all.ipk
+Size: 875
+SHA256sum: 9311b5615bade83952f247c1c4e79ef78f3bd5d029263c052f3f8e95eb31ca0c
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+

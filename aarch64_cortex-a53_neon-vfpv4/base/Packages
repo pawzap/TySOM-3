@@ -1,0 +1,1438 @@
+Package: busybox
+Version: 1.25.1-4
+Depends: libc, jsonfilter
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 231384
+Filename: busybox_1.25.1-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 231747
+SHA256sum: 9c123e6d05c55835c01ebf293ebdcba413e8187ffb0939341eff1a42b6ddab4b
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: bzip2
+Version: 1.0.6-2
+Depends: libc, libbz2
+License: BZIP2
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 12155
+Filename: bzip2_1.0.6-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 12919
+SHA256sum: 0414ab86ba796c3ec4f2202dfc72fe6c14ee97e97ffcda9f1285143cce262f4f
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
+
+Package: ca-certificates
+Version: 20161130+nmu1
+Depends: libc
+Section: base
+Architecture: all
+Installed-Size: 173671
+Filename: ca-certificates_20161130+nmu1_all.ipk
+Size: 173144
+SHA256sum: dd0c1f60a17270cda93c51a2833406db6b275d050d14e4a71468351aebf67cf5
+Description:  System CA certificates
+
+Package: conntrack
+Version: 1.4.4-1
+Depends: libc, libnetfilter-conntrack, libnetfilter-cttimeout, libnetfilter-cthelper, libnetfilter-queue
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 19700
+Filename: conntrack_1.4.4-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 20518
+SHA256sum: 16c2a6fee83cb4f6edd21328944a4417da48c82b461132b0a78820227d25a127
+Description:  Conntrack is a userspace command line program targeted at system
+ administrators. It enables them to view and manage the in-kernel
+ connection tracking state table.
+
+Package: conntrackd
+Version: 1.4.4-1
+Depends: libc, libnetfilter-conntrack, libnetfilter-cttimeout, libnetfilter-cthelper, libnetfilter-queue
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 74480
+Filename: conntrackd_1.4.4-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 75134
+SHA256sum: 0a3d3d11cad31e639fee3a5109f68b81eac94ed930fbc85442a55bc4d562e154
+Description:  Conntrackd can replicate the status of the connections that are
+ currently being processed by your stateful firewall based on Linux.
+ Conntrackd can also run as statistics daemon.
+
+Package: dmesg
+Version: 2.29.2-1
+Depends: libc, librt
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 20541
+Filename: dmesg_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 21273
+SHA256sum: c227a922d95a1b26d96b0fbd4a87db97c86a96d3623c662040bbae661987beff
+Description:  dmesg  is used to examine or control the kernel ring buffer
+
+Package: dnsmasq
+Version: 2.78-1
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 104010
+Filename: dnsmasq_2.78-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 104817
+SHA256sum: de87c9625637715dbe8d35c5f96a85c5be26dd314f88dfb2417878d2a1f84d9d
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2017.75-2
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 85985
+Filename: dropbear_2017.75-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 86653
+SHA256sum: ff6725d7d65dca98828c6ef91c2c04b7fd1dfaf8a63829ee875e31a0bcb100b4
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e2fsprogs
+Version: 1.43.3-2
+Depends: libc, libuuid, libext2fs
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 190516
+Filename: e2fsprogs_1.43.3-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 190714
+SHA256sum: 5b7bad260a1866b5b1409b791886d75ca320a3a3efbcf95aade4b1afbea4bef7
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: fdisk
+Version: 2.29.2-1
+Depends: libc, libblkid, libsmartcols, libfdisk
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 38044
+Filename: fdisk_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 38629
+SHA256sum: 5bc04f9c558e452d930a5407fd37c46e1a3e930e6a415295fd53c1977235c00d
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: firewall
+Version: 2017-05-27-a4d98aea-1
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 43831
+Filename: firewall_2017-05-27-a4d98aea-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 44557
+SHA256sum: af8470375ad3782a31b349ebd22c9e4e0fb4f7f3b5099f4db774f1ab4b51159e
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: hostapd-common
+Version: 2016-12-19-ad02e79d-6
+Depends: libc
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5534
+Filename: hostapd-common_2016-12-19-ad02e79d-6_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6270
+SHA256sum: 4df6fb367a64ff54ed65980ffaaf966e51891a6eff22d823e36995c9ae0c02f6
+Description:  hostapd/wpa_supplicant common support files
+
+Package: hostapd
+Version: 2016-12-19-ad02e79d-6
+Depends: libc, hostapd-common, libubus
+Conflicts: wpad, wpad-mini, wpad-mesh
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 223108
+Filename: hostapd_2016-12-19-ad02e79d-6_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 223984
+SHA256sum: 133358ea2ce6ba99a7a5515652c5ba4c8ad85a2bb93d723e67f25e2b3833ed9b
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator.
+
+Package: hwclock
+Version: 2.29.2-1
+Depends: libc, librt
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 17803
+Filename: hwclock_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 18572
+SHA256sum: f0aab6a7abbe341a8e0103adf89b26d64f6aa304011c5f97283656fc2525d3bd
+Description:  hwclock is a tool for accessing the Hardware Clock
+
+Package: ip-bridge
+Version: 4.4.0-9
+Depends: libc, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 20058
+Filename: ip-bridge_4.4.0-9_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 20810
+SHA256sum: 09a5741334f4a8af830aa878a89a85925cd761ed444b1aac8ec3d1ebd82763ec
+Description:  Bridge configuration utility from iproute2
+
+Package: ip-full
+Version: 4.4.0-9
+Depends: libc, libnl-tiny
+Provides: ip
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 129061
+Filename: ip-full_4.4.0-9_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 129794
+SHA256sum: 122094a3a27846e79065f4667201d24899c0ca1681f0ee748a87546b5cfe91bf
+Description:  Routing control utility (Full)
+
+Package: ip-tiny
+Version: 4.4.0-9
+Depends: libc, libnl-tiny
+Conflicts: ip-full
+Provides: ip
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 88608
+Filename: ip-tiny_4.4.0-9_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 89445
+SHA256sum: 48803e0fba61cc30f41ea5cb4e5fcb7bee199705eb73f3948d6de89f6aeb8b67
+Description:  Routing control utility (Minimal)
+
+Package: ip6tables-extra
+Version: 1.4.21-2
+Depends: libc, ip6tables, kmod-ip6tables-extra
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9612
+Filename: ip6tables-extra_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 10298
+SHA256sum: 77c7e810b61e84402401795fd3904c7cc807714ff2012606e67ac67438d7788c
+Description:  IPv6 header matching modules
+
+Package: ip6tables-mod-nat
+Version: 1.4.21-2
+Depends: libc, ip6tables, kmod-ipt-nat6
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 1640
+Filename: ip6tables-mod-nat_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 2372
+SHA256sum: 18efb09b8f188250b6fe4a3ec0314ff4b7bd67cdfffa6f886e378b1e6b7a10d3
+Description:  iptables extensions for IPv6-NAT targets.
+
+Package: ip6tables
+Version: 1.4.21-2
+Depends: libc, kmod-ip6tables, iptables
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 209
+Filename: ip6tables_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 919
+SHA256sum: 28cc6ed215a528e0170a97b070015752a088968c1ce2c174f2e24c59d1bd71ff
+Description:  IPv6 firewall administration tool
+
+Package: iperf3
+Version: 3.1.4-1
+Depends: libc
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 35717
+Filename: iperf3_3.1.4-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 36477
+SHA256sum: 4ce0753e4f858e33d6114a9f9456f2eb92e943138d7915fe2800d21d50ca04ee
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: iperf
+Version: 2.0.9-1
+Depends: libc, uclibcxx, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 29492
+Filename: iperf_2.0.9-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 30251
+SHA256sum: 1ea840f9bb558388c141f2e68148729ae789f9ed207aa737e1911ca1ebeec71d
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: ipset
+Version: 6.30-1
+Depends: libc, kmod-ipt-ipset, libmnl
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 72731
+Filename: ipset_6.30-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 72909
+SHA256sum: f1186885b0c3d466dca5534ade9037ebb6b136203e1123435883df0ebc6b315d
+Description:  IPset administration utility
+
+Package: iptables-mod-conntrack-extra
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-conntrack-extra
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 8781
+Filename: iptables-mod-conntrack-extra_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9551
+SHA256sum: 0ef9b7f859ac074fa49edf5e5ecbd4778baf4a8cb6b714c46ed87061a4fbb3b2
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connlimit
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-ipopt
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 11860
+Filename: iptables-mod-ipopt_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 12563
+SHA256sum: 67ad3e0a238c4c65b130cef8d2d6db5e01bc4d38b99e793664e98a1884c9b277
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables-mod-nat-extra
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-nat-extra
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 2190
+Filename: iptables-mod-nat-extra_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 2932
+SHA256sum: 5a78d9ed9baded48ba55065c7d96b9aeefd9f9139a6534edf9292fda846554df
+Description:  iptables extensions for extra NAT targets.
+ 
+ Targets:
+ - MIRROR
+ - NETMAP
+
+Package: iptables
+Version: 1.4.21-2
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 23844
+Filename: iptables_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 24614
+SHA256sum: e2809b1052ba29e98e8a0857a6c41e7b300f80db177b075c70b1153fddb9bb83
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: iw
+Version: 4.9-1
+Depends: libc, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 37919
+Filename: iw_4.9-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 38704
+SHA256sum: 4ec1b2ca4b05d8294f45f99aeac51a327b07b18483bfbb9b69ef358083a66aa1
+Description:  cfg80211 interface configuration utility
+
+Package: jshn
+Version: 2017-02-24-96305a3c-1
+Depends: libc, libjson-c, libubox, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5587
+Filename: jshn_2017-02-24-96305a3c-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6308
+SHA256sum: 76cd73e103c02cd038a1c099f44dc4d2e19894dc74f776c48800437507e42b70
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2016-07-02-dea067ad-1
+Depends: libc, libubox, libjson-c
+License: ISC
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 8806
+Filename: jsonfilter_2016-07-02-dea067ad-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9545
+SHA256sum: 9e440691ff8ede02ee8df74ac3e4e11ef76c103d41affb968b5895b20c398451
+Description:  OpenWrt JSON filter utility
+
+Package: lede-keyring
+Version: 2017-01-20-a50b7529-1
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 866
+Filename: lede-keyring_2017-01-20-a50b7529-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 1648
+SHA256sum: b0da1333820e61db4d0644d9a709c5e92ea003ff8b4d26083c019a7ef63f1c94
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: libblkid
+Version: 2.29.2-1
+Depends: libc, libuuid
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 93761
+Filename: libblkid_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 94431
+SHA256sum: c13404e96a11e8f4f0035df23e9837cca543024bfed0608520dbe3b6b07bd61a
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2017-02-24-96305a3c-1
+Depends: libc, libjson-c, libubox
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3432
+Filename: libblobmsg-json_2017-02-24-96305a3c-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4153
+SHA256sum: 818dd06e6ca262f404feab487748ba80b1eb0ceb305a1d0e8b0f1b2684b9cdf2
+Description:  blobmsg <-> json conversion library
+
+Package: libbz2
+Version: 1.0.6-2
+Depends: libc
+License: BZIP2
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 24947
+Filename: libbz2_1.0.6-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 25684
+SHA256sum: 3cf46d001472eac388b8352315be2681cf9a38426564eea4d91eec10c917be25
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libcurl
+Version: 7.52.1-5
+Depends: libc, libmbedtls
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 100126
+Filename: libcurl_7.52.1-5_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 100850
+SHA256sum: bf00543ee3e704037b13fe0ed5b4d442a80f6333c2727f39aae758df7ba5644d
+Description:  A client-side URL transfer library
+
+Package: libext2fs
+Version: 1.43.3-2
+Depends: libc, libuuid
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 136283
+Filename: libext2fs_1.43.3-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 136396
+SHA256sum: a402c3c037ca1e74871555c5956f34b02d262b77ba6c8085a37609bc24a113a2
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libfdisk
+Version: 2.29.2-1
+Depends: libc, libuuid, libblkid
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 116556
+Filename: libfdisk_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 116884
+SHA256sum: 64779efa01b18b8781d0bfc33243df2c322bfae4051e15b6d4fca6974efc34ae
+Description:  The libfdisk library is used for manipulating with partition tables.
+
+Package: libip4tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 17333
+Filename: libip4tc_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 18018
+SHA256sum: cbee9bcdc3690e55e52c253aeb48db45877f65be3919c2df4e6db886f9002e2a
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 16968
+Filename: libip6tc_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 17664
+SHA256sum: 05cee5d8291aba25f5a4449663d0c6e559b8370398ab1562f3bd0ec87ee80e83
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libjson-c
+Version: 0.12.1-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 13723
+Filename: libjson-c_0.12.1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 14451
+SHA256sum: e4d5edc311490c504aeb1257aed55c438c649450157282cd1149072d7bc7103e
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2017-02-24-96305a3c-1
+Depends: libc, libubox
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 4414
+Filename: libjson-script_2017-02-24-96305a3c-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 5148
+SHA256sum: 36c6c3d42f3d49c416ab00b72fbf9c077edb929dc4de6c43db3fd2ae1a6e217e
+Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl
+Version: 2.4-2
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 12654
+Filename: libltdl_2.4-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 13318
+SHA256sum: 4afbcb83be89ad6b1230d0a194dd6052e9227430d81daf806f0678af08bddb1b
+Description:  A generic dynamic object loading library
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 62424
+Filename: liblua_5.1.5-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 63269
+SHA256sum: 5c1b5e2b4b6425396457e2b4d6e1cbe3d7fa7a5fc305b1642e88368ed9f62f6c
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls
+Version: 2.6.0-1
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 141633
+Filename: libmbedtls_2.6.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 142263
+SHA256sum: f96949b680ddda941566e6e6b6190f61a408140fa1f9d08bc5b670ca50f86e44
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl
+Version: 1.0.4-1
+Depends: libc
+License: LGPL-2.1+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5328
+Filename: libmnl_1.0.4-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6540
+SHA256sum: 3352c327159a212eae1abe2a9a325eb137043246224bc78dde57a7031c5d5037
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libmount
+Version: 2.29.2-1
+Depends: libc, libblkid
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 100921
+Filename: libmount_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 101088
+SHA256sum: 26d28a4f07575fea0608933e25d5a8fc32fd3dd1c50a5af4ca20a254e4310c57
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
+
+Package: libncurses
+Version: 6.0-1
+Depends: libc, terminfo
+Provides: libncursesw
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 146643
+Filename: libncurses_6.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 145412
+SHA256sum: 1ee60918626f828d5b85c23ab95e052151114c6795a95d9710fb866ac1215193
+Description:  Terminal handling library (Unicode)
+
+Package: libnetfilter-conntrack
+Version: 1.0.6-1
+Depends: libc, libnfnetlink, kmod-nf-conntrack-netlink, libmnl
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 33900
+Filename: libnetfilter-conntrack_1.0.6-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 34777
+SHA256sum: 0664471bc5ff59fe93fe32d1d59d71adfe2e067fed592af29836240086f3beb2
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
+Package: libnetfilter-cthelper
+Version: 1.0.0-1
+Depends: libc, libmnl
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3724
+Filename: libnetfilter-cthelper_1.0.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4496
+SHA256sum: ff20417bac948f7f6e3e05bbdea53244f6077bf6f01157f4405d0cab66e407dd
+Description:  libnetfilter_cthelper is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking helpers. 
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-cttimeout
+Version: 1.0.0-1
+Depends: libc, libmnl
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3772
+Filename: libnetfilter-cttimeout_1.0.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4563
+SHA256sum: 3b6a3039e8f8c63cc5d99e6a080205d14a6abac657406c0bd16c394dfc770746
+Description:  libnetfilter_cttimeout is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking timeout handling.
+ This library is currently used by conntrack-tools.
+
+Package: libnetfilter-queue
+Version: 2016-07-03-981025e1-1
+Depends: libc, libmnl, libnfnetlink
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 7871
+Filename: libnetfilter-queue_2016-07-03-981025e1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 8687
+SHA256sum: 44964a583989b5ac01b078d9f9c331e1810b87e8ba01032d0d9030159425fd48
+Description:  libnetfilter_queue is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table.
+ This library is currently used by conntrack-tools.
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9008
+Filename: libnfnetlink_1.0.1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9885
+SHA256sum: 43d718c6b124aff699ad049af89f799cf9c31e72b4d16d510abfda3395f9cef2
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnftnl
+Version: 1.0.6-1
+Depends: libc, libmnl
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 39819
+Filename: libnftnl_1.0.6-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 40470
+SHA256sum: f3e2735ae8c21a39207712acef8c3556da76c84e68053a7d46bd88d546ea1f87
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnl-core
+Version: 3.2.29-1
+Depends: libc, libpthread
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 40758
+Filename: libnl-core_3.2.29-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 41256
+SHA256sum: ba4dc77246e3c9624ba851a7dd33e7de3d18308b58a299af5401b7b049eb014f
+Description:  Common code for all netlink libraries
+
+Package: libnl-genl
+Version: 3.2.29-1
+Depends: libc, libnl-core
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 7059
+Filename: libnl-genl_3.2.29-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 7736
+SHA256sum: b9e3033ca886adb776ee19a11a711bf3abbab3f853db7a9000a646f4ca6c298d
+Description:  Generic Netlink Library Functions
+
+Package: libnl-nf
+Version: 3.2.29-1
+Depends: libc, libnl-route
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 24239
+Filename: libnl-nf_3.2.29-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 24595
+SHA256sum: 573bf499424493b6564607f351693f35ae7ede684747510a1bd9a42996084030
+Description:  Netfilter Netlink Library Functions
+
+Package: libnl-route
+Version: 3.2.29-1
+Depends: libc, libnl-core
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 125586
+Filename: libnl-route_3.2.29-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 125127
+SHA256sum: 32471451e49093cec27d58b9bf7ebfc9c52823f8c9d3199bf34ce72690760487
+Description:  Routing Netlink Library Functions
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 12387
+Filename: libnl-tiny_0.1-5_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 13088
+SHA256sum: 4a0cd22dfd195c8520a7951e6342dc749ad7e3c3ff986d2d6cf2316f25e6f62a
+Description:  This package contains a stripped down version of libnl
+
+Package: libnl
+Version: 3.2.29-1
+Depends: libc, libnl-genl, libnl-route, libnl-nf
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 104
+Filename: libnl_3.2.29-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 865
+SHA256sum: 606d7048c9d925decd940a8234f177557fdc2997d394facc9a213c3ac054ad3b
+Description:  Socket handling, connection management, sending and receiving of data,
+ message construction and parsing, object caching system, etc.
+
+Package: libopenssl
+Version: 1.0.2k-1
+Depends: libc
+License: OpenSSL
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 631178
+Filename: libopenssl_1.0.2k-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 627345
+SHA256sum: cf2cd3793b8bb82c8cc6d0bc25dcf6450968ff48de5671066bf287a1212f6d54
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap
+Version: 1.8.1-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 85364
+Filename: libpcap_1.8.1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 85970
+SHA256sum: 32d5f973405c83f916d509ab598e185d1864545af443653fe7434587f1bee86e
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libreadline
+Version: 7.0-1
+Depends: libc
+License: GPL-3.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 109464
+Filename: libreadline_7.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 108781
+SHA256sum: a964a729af61ba083fcc54179062e65c552d83d89964035b69f5d486c942965b
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
+Package: librpc
+Version: 2015-11-04-a921e3de-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 29907
+Filename: librpc_2015-11-04-a921e3de-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 30557
+SHA256sum: 18878099e8d431fe2e677ffc6a5e46310510e37ff8dfd24dfe8e31d935cfeec1
+Description:  uClibc RPC library
+
+Package: libsmartcols
+Version: 2.29.2-1
+Depends: libc, librt
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 53645
+Filename: libsmartcols_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 54355
+SHA256sum: 1e004983776b6734aefc7c484d558e31bedc038d6a889bd6ceb63101ac9a6d71
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libubox
+Version: 2017-02-24-96305a3c-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 18583
+Filename: libubox_2017-02-24-96305a3c-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 19283
+SHA256sum: a6c8d5183eae93e571a1e7d65a6cb849ad8fd9352f86e87a0c75b6b0f944047b
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubus, liblua
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 6443
+Filename: libubus-lua_2017-02-18-34c6e818-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 7203
+SHA256sum: 844a06336a29857903e0ca1e7de5f893a848d07e420aa3fac4e03321823e0284
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubox
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9182
+Filename: libubus_2017-02-18-34c6e818-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9929
+SHA256sum: 97f2367a669f4130de9a39491d2422b2756e9ad18f569d0426c22daeb047d479
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libuci, liblua
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5830
+Filename: libuci-lua_2016-07-04-e1bf4356-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6542
+SHA256sum: e25b63a856830e49b01a667f8797b36a43f615fb95e3afa3ac22dd3016b9a08e
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libubox
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 15016
+Filename: libuci_2016-07-04-e1bf4356-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 15741
+SHA256sum: d9cd54f88359ff0fd4091ff3d8fb043ec7e3ff317df937ee3d88dd48cb041c6d
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient
+Version: 2017-09-06-24d6eded-1
+Depends: libc, libubox
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 8964
+Filename: libuclient_2017-09-06-24d6eded-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9691
+SHA256sum: 4c8e3bd98ba1234db01eb5b3d6892b4734c9a3a9a350772c42c9e169b117b765
+Description:  HTTP/1.1 client library
+
+Package: libustream-mbedtls
+Version: 2016-07-02-ec80adaa-2
+Depends: libc, libubox, libmbedtls
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3464
+Filename: libustream-mbedtls_2016-07-02-ec80adaa-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4189
+SHA256sum: a76a5d3fdb1e6bb91df3a254cc157ae4a2104b9ce87998fa26fe0a9b4058d7b3
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl
+Version: 2016-07-02-ec80adaa-2
+Depends: libc, libubox, libopenssl
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3390
+Filename: libustream-openssl_2016-07-02-ec80adaa-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4109
+SHA256sum: 6665fd6186de0cb43863ca664b19c6896ba547cc720b8d85acde0c3b395876d2
+Description:  ustream SSL Library (openssl)
+
+Package: libuuid
+Version: 2.29.2-1
+Depends: libc, librt
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5288
+Filename: libuuid_2.29.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6191
+SHA256sum: 30f99c85c095b385f8271a4491736f1db55e5656afe2884b14019e7636bcf9c6
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libxtables
+Version: 1.4.21-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 35199
+Filename: libxtables_1.4.21-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 35936
+SHA256sum: 372e2b1e8b605735c4f6280ec4ce6cef59856bc204e27222b2776951996bee14
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: logd
+Version: 2017-03-10-16f7e161-1
+Depends: libc, libubox, libubus, libblobmsg-json
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9730
+Filename: logd_2017-03-10-16f7e161-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 10466
+SHA256sum: a1b21ec352e35f2d0f62ce7e072f89d4c4904c54c68815480ee7b97098f66b96
+Description:  OpenWrt system log implementation
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+License: MIT
+Section: lang
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 4541
+Filename: lua_5.1.5-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 5357
+SHA256sum: 802b3c6ce71486c16a7c136a43d1449c1aa4f13413b17200f391b516b113ef75
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: mtd
+Version: 21
+Depends: libc, libubox
+License: GPL-2.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 12267
+Filename: mtd_21_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 13003
+SHA256sum: e4df8012190b15a69d69ef1af813ec2dd368dfc2237ab7f99caa10b404e87450
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2017-01-25-650758b1-1
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 66333
+Filename: netifd_2017-01-25-650758b1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 67044
+SHA256sum: f7eaded76e9568b812a51b33a9e0ce2bc5664719a63ce8bbfa14fe594b75f56b
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: nftables
+Version: 0.4+2015-04-09-1
+Depends: libc, kmod-nft-core, kmod-nft-nat, libnftnl
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 104832
+Filename: nftables_0.4+2015-04-09-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 105349
+SHA256sum: cef577c4a902a48965fda9fd08b59bd3c90e154829162b90ec776497febece63
+Description:  nftables packet filtering userspace utility
+
+Package: odhcp6c
+Version: 2017-01-30-c13b6a05-2
+Depends: libc, libubox
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 22734
+Filename: odhcp6c_2017-01-30-c13b6a05-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 23440
+SHA256sum: 7d067164ed588e82b8efa07e7d5b56da02bc50d8e214c2e89aacef3ddd996077
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd
+Version: 2017-10-02-c6f3d5d4-2
+Depends: libc, libubox, libuci, libubus, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 32606
+Filename: odhcpd_2017-10-02-c6f3d5d4-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 33527
+SHA256sum: f1334e2f1eaf1c7d02247e7bda6d603125ca32d2de179456fbe9739638d8023f
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ odhcpd provides server services for DHCP, RA, stateless and stateful DHCPv6,
+ prefix delegation and can be used to relay RA, DHCPv6 and NDP between routed
+ (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openssl-util
+Version: 1.0.2k-1
+Depends: libc, libopenssl
+License: OpenSSL
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 195885
+Filename: openssl-util_1.0.2k-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 191943
+SHA256sum: f7f2247ca487e1c8cd95d9c0f274797817b06e64a3f9c9db0fc7daf343eaeb10
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-11
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9834
+Filename: ppp-mod-pppoe_2.4.7-11_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 10614
+SHA256sum: 86e72af2afbc9db6f898a2d654981d2695d7ee3cf062a23c98b0255240c6fc3b
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.7-11
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 110116
+Filename: ppp_2.4.7-11_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 110824
+SHA256sum: 6ae12a98c9ce831032f3d400cae9b629951e2627b2e827decabf757c2f77a772
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: px5g-mbedtls
+Version: 4
+Depends: libc, libmbedtls
+Provides: px5g
+License: LGPL-2.1
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3907
+Filename: px5g-mbedtls_4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4698
+SHA256sum: 5363e77d879a602e82032198c3f716baf56f7c57605012d7e71ffbbb7f5e3e58
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: qos-scripts
+Version: 1.3.0-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-connmark, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Section: utils
+Architecture: all
+Installed-Size: 6386
+Filename: qos-scripts_1.3.0-1_all.ipk
+Size: 7274
+SHA256sum: 04a8a2c85a3a743e9e680f4c7a81fbc599ac73de9871b1b2c619988b97ad2664
+Description:  A set of scripts that abstract QoS configuration into a simple 
+ configuration file supporting stanzas that specify any number of QoS 
+ entries.
+
+Package: rpcd
+Version: 2016-12-03-0577cfc1-1
+Depends: libc, libubus, libubox, libuci, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 18951
+Filename: rpcd_2016-12-03-0577cfc1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 19703
+SHA256sum: 00fa84d1cd975b3a1ec925c4082abe557a6f8c76af721641640638f38b4ba8f1
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: samba36-client
+Version: 3.6.25-6
+Depends: libc, libreadline, libncurses
+License: GPL-3.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 453678
+Filename: samba36-client_3.6.25-6_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 453721
+SHA256sum: bde7ffe2a8f601a868c9e7b3fd310a05266e9988d125bd87b4d05cfd967b7304
+Description:  Samba 3.6 SMB/CIFS client
+
+Package: samba36-server
+Version: 3.6.25-6
+Depends: libc
+License: GPL-3.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 905308
+Filename: samba36-server_3.6.25-6_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 887862
+SHA256sum: 9cbe15c29a625ab1acfa6b842abd4211ea6cff28e691fed9aba12a3e83d84067
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: tc
+Version: 4.4.0-9
+Depends: libc, kmod-sched-core
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 107401
+Filename: tc_4.4.0-9_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 108156
+SHA256sum: 114217e54d14576976cff670ce5b381b26cdd9a8ff2435bd779bb442a16e1a5d
+Description:  Traffic control utility
+
+Package: tcpdump
+Version: 4.9.2-1
+Depends: libc, libpcap
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 337668
+Filename: tcpdump_4.9.2-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 337929
+SHA256sum: 581948602fa42772d7683c26b502d9afc94810c59dbd02d6136841fd50dc4af0
+Description:  Network monitoring and data acquisition tool
+
+Package: terminfo
+Version: 6.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5881
+Filename: terminfo_6.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6524
+SHA256sum: d213efd41b7dbd8fe111cb66096c0ee8e05d1918ff20a8c2ccee3207245d2147
+Description:  Terminal Info Database (ncurses)
+
+Package: ubox
+Version: 2017-03-10-16f7e161-1
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 15374
+Filename: ubox_2017-03-10-16f7e161-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 16048
+SHA256sum: d84d9f8f2200ab776f5c8aacbecb67dd48922da6998bc515fc61438d3183737f
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubus, libblobmsg-json, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5346
+Filename: ubus_2017-02-18-34c6e818-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6097
+SHA256sum: 0690cefc6d01dbfc9276d10c0602dca74b748ddc3efaeb3f0f31620ea6bf6aed
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2017-02-18-34c6e818-1
+Depends: libc, libubox, libblobmsg-json
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 10565
+Filename: ubusd_2017-02-18-34c6e818-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 11305
+SHA256sum: ede6ed1ed8d5eccd37b7b1e708afa3d04fe402b2711b6eb18017f07dd198a384
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libuci
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 6984
+Filename: uci_2016-07-04-e1bf4356-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 7742
+SHA256sum: 66898b5036275ebb371465d6a76fb1e13bba3c11ff49911d78dd130ffd4ddd16
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.4-3
+Depends: libc
+License: LGPL-2.1+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 63856
+Filename: uclibcxx_0.2.4-3_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 64068
+SHA256sum: 5916c203fb67a819753b519188e6a510d84cbbec92808694da17dab3ac01b39d
+Description:  C++ library for embedded systems
+
+Package: uclient-fetch
+Version: 2017-09-06-24d6eded-1
+Depends: libc, libuclient
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 6758
+Filename: uclient-fetch_2017-09-06-24d6eded-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 7532
+SHA256sum: 12533d7e898a016aa07f3855b4c95d31f81dfd73b79f7adf28c0a290669294d7
+Description:  Tiny wget replacement using libuclient
+
+Package: uhttpd-mod-ubus
+Version: 2017-08-19-3fd58e9b-1
+Depends: libc, uhttpd, libubus, libblobmsg-json
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5489
+Filename: uhttpd-mod-ubus_2017-08-19-3fd58e9b-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6305
+SHA256sum: 1be4ac845340c79ac9cf251934dc2e45426442a6cb6d1af9634df6e5cb973124
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2017-08-19-3fd58e9b-1
+Depends: libc, libubox, libblobmsg-json, libjson-script
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 24387
+Filename: uhttpd_2017-08-19-3fd58e9b-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 25100
+SHA256sum: 712f67eacbac3b1e37b6c24ecdd475e271f9237bba55646ec97863f2c31ca332
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usign
+Version: 2015-07-04-ef641914-1
+Depends: libc, libubox
+License: ISC
+Section: base
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9997
+Filename: usign_2015-07-04-ef641914-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 10754
+SHA256sum: b4fdcdaa1b9d7d0b3fe0194ff06e0e8c8b83ce8aa2242300cd9aacdfacef7321
+Description:  OpenWrt signature verification utility
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 21992
+Filename: wireless-tools_29-5_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 22782
+SHA256sum: 8568d649ef96e898c68cafba4cc324e8065251cc3285d5048c1ad7c034d5cb37
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: wpa-cli
+Version: 2016-12-19-ad02e79d-6
+Depends: libc
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 32673
+Filename: wpa-cli_2016-12-19-ad02e79d-6_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 33444
+SHA256sum: 1dc5fcf535daa849894db0b3e1bab6bf9c55392934c8fd6d20d07cd3558a1a72
+Description:  WPA Supplicant command line control utility
+
+Package: wpa-supplicant
+Version: 2016-12-19-ad02e79d-6
+Depends: libc
+Conflicts: wpad, wpad-mini, wpad-mesh
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 264790
+Filename: wpa-supplicant_2016-12-19-ad02e79d-6_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 265634
+SHA256sum: 9d90de3eb4eb1c19f39c04ebcbd07c9f2e1b2445d9cb2487cc10c77eebc4ef0f
+Description:  WPA Supplicant
+
+Package: wpan-tools
+Version: 0.7
+Depends: libc, libnl
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9619
+Filename: wpan-tools_0.7_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 10303
+SHA256sum: a123cc564d2ae5954a8625d7dba1098491cbed999d7d0e2088a98075aebc8f77
+Description:  cfg802154 interface configuration utility
+
+Package: zlib
+Version: 1.2.11-1
+Depends: libc
+License: Zlib
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 38951
+Filename: zlib_1.2.11-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 39750
+SHA256sum: 44c4f061317ebf44c29cd08ef36598fedd062c8a90a83f5d7e13f22d0d1d7db8
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+

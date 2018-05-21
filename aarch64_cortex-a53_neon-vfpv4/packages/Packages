@@ -1,0 +1,708 @@
+Package: adblock
+Version: 2.6.2-1
+Depends: libc
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 6961
+Filename: adblock_2.6.2-1_all.ipk
+Size: 7913
+SHA256sum: b232b8b7fd07e03624613369e9aeeebbf3b4cdc11782f019f61714e11361e497
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq or unbound dns backend.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: bash
+Version: 4.3.42-1
+Depends: libc, libncurses
+License: GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 342548
+Filename: bash_4.3.42-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 343051
+SHA256sum: 2383752104661a200e600b2e3ea7a9c56629f6d56cc5780a38202fdf6d00d8dc
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bluez-daemon
+Version: 5.38-2
+Depends: libc, bluez-libs, bluez-utils, dbus, libical
+License: GPL-2.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 543926
+Filename: bluez-daemon_5.38-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 542694
+SHA256sum: edea697ee5a459b6aa64ce4fbeb62f9fd3b2b538468148937e45b5a1469808ae
+Description:  Bluetooth daemon
+
+Package: bluez-libs
+Version: 5.38-2
+Depends: libc, libpthread, kmod-bluetooth
+License: GPL-2.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 49156
+Filename: bluez-libs_5.38-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 49732
+SHA256sum: 27f3c80c33d9b614e477e741514ff669715c7cb2a824d54855589d3fee18217a
+Description:  Bluetooth library
+
+Package: bluez-utils
+Version: 5.38-2
+Depends: libc, bluez-libs, libpthread, librt, glib2, libncurses, libreadline
+License: GPL-2.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 884018
+Filename: bluez-utils_5.38-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 882570
+SHA256sum: b4977e620505533eb489c5942e03bc91a43b94699d3bb567ab3be2446df4cad9
+Description:  Bluetooth utilities
+
+Package: bridge
+Version: 1.5-5
+Depends: libc
+License: GPL-2.0+
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 8833
+Filename: bridge_1.5-5_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9672
+SHA256sum: 992398733fc33719860bfdf4bc2486482a18b9f6cd64b2de92e804cba599d9d3
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
+Package: clamav
+Version: 0.98.7-1
+Depends: libc, libpthread, uclibcxx, zlib, libcurl, libopenssl
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 941255
+Filename: clamav_0.98.7-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 937644
+SHA256sum: 09e057aa72e1a185216ad869654f343c6eee2a660c4bc6c8628daf3909f02853
+Description:  ClamAV is an open source antivirus engine for detecting trojans,
+ viruses, malware & other malicious threats.
+
+Package: collectd-mod-cpu
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3546
+Filename: collectd-mod-cpu_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4278
+SHA256sum: cfbf05be3004cb7ead9d9d1166f5e8569f0ad9dba0ec7807398a5e8c517020b4
+Description:  CPU input plugin
+
+Package: collectd-mod-interface
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 2318
+Filename: collectd-mod-interface_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 3058
+SHA256sum: d131227c8d053abdcd0abc6a0965041c97c2043cd099fd9c43a0f82fff0d28a0
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.5.3-4
+Depends: libc, collectd, libiwinfo
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 2674
+Filename: collectd-mod-iwinfo_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 3417
+SHA256sum: aa85ae51ab6bcb72022ae254861a4a6c0b4a0b27544956453d5e48a7b40d2e50
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 1917
+Filename: collectd-mod-load_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 2657
+SHA256sum: 1e222cc654b171f570815c44f0c6d00a61bb8d7854ce5df759fc76367fd82195
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 2615
+Filename: collectd-mod-memory_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 3359
+SHA256sum: bf9997c5b08555bcce1e1f97f1134dd315aaaa3a406c6540ae116e1205a70029
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.5.3-4
+Depends: libc, collectd
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 14093
+Filename: collectd-mod-network_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 14802
+SHA256sum: 22ffa627d8a7e0916a9e5d7acfcb9f9e9fb1aa547ef9bbefcd61a72b46d8e460
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.5.3-4
+Depends: libc, collectd, librrd1
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 9986
+Filename: collectd-mod-rrdtool_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 10742
+SHA256sum: a71f6431887d0675bb80818b68929ed630216e23ce77c866ff3b2ff077fc4781
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 5.5.3-4
+Depends: libc, libpthread, zlib, libltdl, libip4tc
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 77785
+Filename: collectd_5.5.3-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 78552
+SHA256sum: d12f2f89778c9b3b3d9be7b86b5970fc59a49f7c88c78e93e75e5d77da26c915
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: cshark
+Version: 2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e-2
+Depends: libc, libjson-c, libpcap, libuci, libubox, libuclient, libustream-mbedtls
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 8557
+Filename: cshark_2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 9358
+SHA256sum: e4154f8a69e19747791bfa9bf55cb49ef1f4b313f7f2aae425e3ae419b6d9ef7
+Description:  CloudShark capture tool
+
+Package: dbus
+Version: 1.10.4-1
+Depends: libc, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 91575
+Filename: dbus_1.10.4-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 91604
+SHA256sum: aa231b7166e41ce46e2bbb8d4896460c71365acf1842e363b649cbb90faef4b9
+Description:  Simple interprocess messaging system (daemon)
+
+Package: dosfstools
+Version: 4.0-2
+Depends: libc
+License: GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 59862
+Filename: dosfstools_4.0-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 58934
+SHA256sum: 5b8fc87cd82aa56a8b243084c3af94cdf2403d3e070c86ba4ca2f8c6d4f5c30e
+Description:  The dosfstools package includes the mkfs.fat and fsck.fat utilities, which respectively make and check MS-DOS FAT filesystems.
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5040
+Filename: etherwake_1.09-4_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 5960
+SHA256sum: 05e255f9f243e8ca1a9a7ce808d3e179ce016c2040a3610db8150a0f9ea86eaf
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: ethtool
+Version: 4.8-1
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 88229
+Filename: ethtool_4.8-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 88692
+SHA256sum: 27761e616e30d3db6fbbe41234c40deed6afc7e2f0da9f708f359318e848d1e7
+Description:  ethtool is a small utility for examining and tuning your ethernet-based
+ network interface
+
+Package: glib2
+Version: 2.50.2-2
+Depends: libc, zlib, libpthread, libffi, libattr
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 846086
+Filename: glib2_2.50.2-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 840889
+SHA256sum: 5b248082a47895d1c42ba53b3048d93af61abd66893c4ff1ac9727a04f0df605
+Description:  The GLib library of C routines
+
+Package: gzip
+Version: 1.7-1
+Depends: libc
+License: GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 44250
+Filename: gzip_1.7-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 45198
+SHA256sum: b4cf232e5328ad46d6c0f1895c49faec1e6851ac424261c9e5953cfb23ba332a
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
+
+Package: libattr
+Version: 20160302-1
+Depends: libc
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5976
+Filename: libattr_20160302-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 6722
+SHA256sum: 365cf5b5f973ad20627eb522b3ba2cda6de8e925a707bad4007bd2e0ed8c4f68
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libdbus
+Version: 1.10.4-1
+Depends: libc, libpthread
+License: AFL-2.1
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 99439
+Filename: libdbus_1.10.4-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 99335
+SHA256sum: d0b140be81ff05ff3cd3b5eacefcc7e33792fab2695b982212222c77f90dae6d
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.2.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 50023
+Filename: libexpat_2.2.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 50630
+SHA256sum: 6808054d7a80fab5d16426e7752241fe8fdc4100587a77d822855ca8b933be7d
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 6734
+Filename: libffi_3.2.1-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 7806
+SHA256sum: 7877f0572934a6fb833b36ae570dee319d9846ac6feae41cf718ed99fb08ea0f
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgcrypt
+Version: 1.6.6-1
+Depends: libc, libgpg-error
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 270581
+Filename: libgcrypt_1.6.6-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 269702
+SHA256sum: 524887100884dd958b986a6ebcf60979b987a0dc5a9dccc45af04cf5aa650538
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 5142
+Filename: libgpg-error_1.12-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 5993
+SHA256sum: 3288b99d1ea7196f9c7a718e839195980ab4ea4d45deb9e85efbad9f124a2da0
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libical
+Version: 1.0-1
+Depends: libc, libpthread
+License: LGPL-2.1 MPL-1.0
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 141048
+Filename: libical_1.0-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 137400
+SHA256sum: 5e4326e359b04af172c68afd32aeef8b721888bc9095f5bcdd3a32780fdc3623
+Description:  This package provides a a read/write library of classes for object oriented
+ languages (Initial goals of PHP and Python) that implement and enforce the iCal
+ standard (RFC 2445).
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+License: IJG
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 94403
+Filename: libjpeg_9a-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 95199
+SHA256sum: dbd3e4ab33f50beb19fe9eae3b2c74ba710c493d75a34b9687a27a0e3545baf5
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: liblzma
+Version: 5.2.3-1
+Depends: libc, libpthread
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 45679
+Filename: liblzma_5.2.3-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 46420
+SHA256sum: 3c5e73875aacf9149d400c9f1859db1bfb51ce2a734d568f1fc41709dee9bf10
+Description:  liblzma library from XZ Utils
+
+Package: libnatpmp
+Version: 20140401-1
+Depends: libc
+License: BSD-3c
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3185
+Filename: libnatpmp_20140401-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4119
+SHA256sum: daf420f6345e1cfe746794797f13680336b7a751600e97504197aea7421ce49b
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Section: libs
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 128249
+Filename: librrd1_1.0.50-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 128449
+SHA256sum: 3bd055fb030d991874d69b43bbcb1689d9ed37be43860d90d26e04f8dae76c2b
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: luci-app-clamav
+Version: 20150520
+Depends: libc, luci-mod-admin-full, clamav
+License: Apache-2.0
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 2081
+Filename: luci-app-clamav_20150520_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 2850
+SHA256sum: f97565a8fe37f87045b0cb72984e2832a63597fc8b2c314cf2877e28a2e62be5
+Description:  This package will install ClamAV Web UI.
+
+Package: luci-app-cshark
+Version: 2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e-2
+Depends: libc, cshark, luci
+Section: luci
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3781
+Filename: luci-app-cshark_2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4569
+SHA256sum: db0f1a348648214ccf5bd239f26c659ca40900a2af215a7bab2072d9a979e647
+Description:  Cloudshark capture tool Web UI
+
+Package: luci-app-mwan3
+Version: 1.4-5
+Depends: libc, mwan3, luci-mod-admin-full, luci-app-firewall, luci-lib-nixio
+License: GPLv2
+Section: LuCI
+Architecture: all
+Installed-Size: 14219
+Filename: luci-app-mwan3_1.4-5_all.ipk
+Size: 15071
+SHA256sum: 73a1bba7b24f32f5bee76eb717eae7ac9b827b2309c88bc58f3fbeb10bc40bb2
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple and
+ manageable with loadbalancing/failover support for up to 250 physical or logical
+ WAN interfaces, connection tracking and an easy to manage traffic ruleset
+
+Package: mc
+Version: 4.8.18-1
+Depends: libc, glib2, libncurses, libmount, librpc
+License: GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 356125
+Filename: mc_4.8.18-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 355892
+SHA256sum: 1b7ae4d66be7580f7145b5f20c797ea1c93feb82d5de0d771b176b8b23124cc5
+Description:  GNU Midnight Commander is a visual file manager.
+ It's a feature rich full-screen text mode application that allows you to copy,
+ move and delete files and whole directory trees, search for files and run commands in the subshell.
+ Internal viewer and editor are included as well.
+ 
+
+Package: minicom
+Version: 2.7-3
+Depends: libc, libncurses
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 72991
+Filename: minicom_2.7-3_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 73587
+SHA256sum: 17befa905a64ce1f4cc42a94b64506ab5203ea2fd144a3df6c41942405aacd71
+Description:  Terminal emulation program
+
+Package: motion
+Version: 3.4.0-20141018-9479d910f2149b5558788bb86f97f26522794212-3
+Depends: libc, libjpeg, libpthread
+License: GPLv2
+Section: multimedia
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 93952
+Filename: motion_3.4.0-20141018-9479d910f2149b5558788bb86f97f26522794212-3_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 94653
+SHA256sum: ff6cd8509b9a52b6e51e5f147c8bd2ca9607e4da43a0b51c0cce1c6cf4b0aed5
+Description:  webcam motion sensing and logging
+
+Package: mwan3
+Version: 2.0.2-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
+License: GPLv2
+Section: net
+Architecture: all
+Installed-Size: 6400
+Filename: mwan3_2.0.2-1_all.ipk
+Size: 7303
+SHA256sum: d99c7a8449467c1083d00dd74eba24685ad87b9e60acdbf918ea4df58d41bf91
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nano
+Version: 2.7.5-1
+Depends: libc, libncurses
+License: GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 30060
+Filename: nano_2.7.5-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 30770
+SHA256sum: abfa62e20a4497772839bfd8edff3ff77afa20151223403011c0a356d32b9930
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: natpmpc
+Version: 20140401-1
+Depends: libc, libnatpmp
+License: BSD-3c
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3359
+Filename: natpmpc_20140401-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 4263
+SHA256sum: 37ec3dedddd959b8c16197ccb21566b9fb2a738482bb5e2c155fe6aa13f888a0
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
+
+Package: ntfs-3g
+Version: 2016.2.22-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0 LGPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 161509
+Filename: ntfs-3g_2016.2.22-1-fuseint_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 162077
+SHA256sum: 61fa5f1586421811343c19ff88eb3249543e6b8f5cd7540360338609817a15d9
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: ntfsprogs_ntfs-3g
+Version: 2016.2.22-1-fuseint
+Depends: libc, ntfs-3g, libgcrypt, libuuid
+License: GPL-2.0 LGPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 173821
+Filename: ntfsprogs_ntfs-3g_2016.2.22-1-fuseint_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 173622
+SHA256sum: 07726cc58d7b5b6322da8dfede5386dbbd7984b2d05eb6fcd3411dfdd23a90f3
+Description:  Suite of NTFS utilities for doing neat things with NTFS.
+ Contains:
+ - mkntfs - Create an NTFS filesystem.
+ - ntfscat - Dump a file's content to the standard output.
+ - ntfsclone - Efficiently clone, backup, restore or rescue NTFS.
+ - ntfscluster - Locate the files which use the given sectors or clusters.
+ - ntfscmp - Compare two NTFS filesystems and tell the differences.
+ - ntfscp - Copy a file to an NTFS volume.
+ - ntfsfix - Check and fix some common errors, clear the LogFile.
+ - ntfsinfo - Show information about NTFS or one of the files or directories within it.
+ - ntfslabel - Show, or set, an NTFS filesystem's volume label.
+ - ntfsls - List information about files in a directory residing on an NTFS.
+ - ntfsresize - Resize NTFS without losing data.
+ - ntfsundelete - Recover deleted files from NTFS.
+
+Package: picocom
+Version: 1.7-2
+Depends: libc
+License: GPL-2.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 10813
+Filename: picocom_1.7-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 11565
+SHA256sum: f910bcf77554e23bc9edd0b8274ba870538bf07404722e33d4e8f1ea3d7c625c
+Description:  minimal dumb-terminal emulation program
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 10222
+Filename: rrdtool1_1.0.50-2_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 11333
+SHA256sum: 43ef235859014cd83e1b85e694004cb3e11a86a4573d219a055b290e99d84388
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: tar
+Version: 1.29-3
+Depends: xz, libc, bzip2
+License: GPL-3.0
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 167982
+Filename: tar_1.29-3_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 168847
+SHA256sum: 08a493feee96c60d585b0c29028da26dcf9e5a603d53e875869cd44c6f726c99
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: vim-full
+Version: 7.4-3
+Depends: libc, libncurses
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 736284
+Filename: vim-full_7.4-3_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 736623
+SHA256sum: 26b662def9970595d93e3c65d5fa9115da847873936af3d0b21f3fc5ef375ddc
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: wifischedule
+Version: 1-1
+Depends: libc
+License: PRPL
+Section: net
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 3098
+Filename: wifischedule_1-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 3890
+SHA256sum: f170e4a494f8f0188ecc9e3716a4145424b377e238ab7b08f7b727846163a3a0
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: wifitoggle
+Version: 1-5
+Depends: libc
+License: GPL-2.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 1657
+Filename: wifitoggle_1-5_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 2492
+SHA256sum: 133e376012b7fac1344c83a1546427bfc58fdcadb047820b538377e60fc58753
+Description:  Very versatile script to toggle Wi-Fi with a button. Allows to set
+ timeouts, persist changes after boot, and set LEDs according to the state.
+
+Package: xz-utils
+Version: 5.2.3-1
+Depends: libc
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 104
+Filename: xz-utils_5.2.3-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 856
+SHA256sum: 321c4bb779b939ce672905cf8b0a3852c8379155153c730c778c03c301c70b66
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.3-1
+Depends: libc, xz-utils, liblzma
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: aarch64_cortex-a53_neon-vfpv4
+Installed-Size: 26122
+Filename: xz_5.2.3-1_aarch64_cortex-a53_neon-vfpv4.ipk
+Size: 26789
+SHA256sum: ed3fae699de133e927b8864361b337527de2b286c6597b489e44b139fe484684
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
